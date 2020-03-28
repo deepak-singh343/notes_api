@@ -1,0 +1,5 @@
+const express=require('express');
+const router=express.Router();
+const register_controller=require('../controllers/register_controller');
+router.post('/',register_controller.create);
+module.exports=router;
