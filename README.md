@@ -26,31 +26,31 @@ git remote add upstream https://github.com/nodejs/node.git
 
 - Then:
 
-Install the required packages and run the project by npm start command
+Install the required packages and run the project by npm start command.
 
 - Then:
 
 Open Postman, to REGISTER a user make a POST request with URL localhost:8000/register with raw data   
-{ "email":"emailId","password":"password","name":"name" }
+{ "email":"emailId","password":"password","name":"name" } .
 
 - Then:
 
 To LOGIN make a POST request with URL localhost:8000/login with raw data
-{ "email":"emailId","password":"password" }
+{ "email":"emailId","password":"password" } .
 
 - Then:
 
 To ADD a new post/note make a POST request with URL localhost:8000/newNote with raw data
-{"content":"content","user":"User Id"} we will have to give user id manually by coping user id from user database
+{"content":"content","user":"User Id"} we will have to give user id manually by coping user id from user database.
 
 - Then:
 
-To VIEW the notes/posts make a GET request with URL localhost:8000/getNote 
+To VIEW the notes/posts make a GET request with URL localhost:8000/getNote  .
 
 - Then:
 
-To DELETE a note/post make a DELETE request with URL localhost:8000/deleteNote/noteId and click on Authorization and select BearerToken and copy paste the bearer token which is generated while logining in
+To DELETE a note/post make a DELETE request with URL localhost:8000/deleteNote/noteId and click on Authorization and select BearerToken and copy paste the bearer token which is generated while logining in.
 
 - Then:
 
-To UPDATE a note/post make a POST request with URL localhost:8000/editNote/noteId with raw data {"content":"new content"} and click on Authorization and select BearerToken and copy paste the bearer token which is generated while logining in
+To UPDATE a note/post make a POST request with URL localhost:8000/editNote/noteId with raw data {"content":"new content"} and click on Authorization and select BearerToken and copy paste the bearer token which is generated while logining in.
