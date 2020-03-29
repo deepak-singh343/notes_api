@@ -35,12 +35,12 @@ Open Postman, to REGISTER a user make a POST request with URL localhost:8000/reg
 
 - Then:
 
-To LOGIN make a POST request with URL localhost:8000/login with raw data
+To LOGIN make a POST request with URL localhost:8000/login with raw data                                             
 { "email":"emailId","password":"password" } .
 
 - Then:
 
-To ADD a new post/note make a POST request with URL localhost:8000/newNote with raw data
+To ADD a new post/note make a POST request with URL localhost:8000/newNote with raw data                                   
 {"content":"content","user":"User Id"} we will have to give user id manually by coping user id from user database.
 
 - Then:
