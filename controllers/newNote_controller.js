@@ -10,8 +10,8 @@ module.exports.createNote=async function(req,res)
         }
         const newNote = await Note.create({
             content:req.body.content,
-            user: req.body.user,
-            // user: req.user
+           // user: req.body.user,
+            user: req.user
         })
         user.notes.push(newNote);
         user.save();
