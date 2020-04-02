@@ -12,7 +12,11 @@ const userSchema=new mongoose.Schema({
     name:{
         type:String,
         required:true
-    }
+    },
+    notes:[{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'Notes'
+    }]
 },{
     timestamps:true
 });
